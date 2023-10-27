@@ -1,0 +1,101 @@
+body {
+	background-color: #EBF3E8;
+	color: #005B41;
+	font-family: courier;
+	font-size: 16px;
+}
+
+h1 {
+	color: #005B41;
+	font-family: arial;
+	font-size: 40px;
+}
+
+h2 {
+	color: #748E63;
+	font-weight: bold;
+}
+
+a:hover {
+	color: black;
+}
+
+a {
+	color: #186F65;
+}
+
+#profile-picture {
+	width: 130px;
+}
+
+.profile-picture {
+	border-radius: 10%;
+}
+
+.shadowed {
+	box-shadow: 5px 5px 3px darkseagreen;
+}
+
+
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px #AAC8A7;
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.btn-darkgreen {
+	background-color: #748E63;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 5px;
+}
+
+.btn-darkgreen:hover {
+	background-color: #183D3D;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+}
+
+.list-horizontal {
+	padding-left: 0px;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
